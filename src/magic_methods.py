@@ -6,20 +6,21 @@ from sys import getsizeof
 # 一切皆对象是什么意思？
 # dir(1)
 
-# 举例
+# 举例：基础知识
 class Value:
     # base class: object
     def __init__(self, val) -> None:
         self.value = val
         print(f"__init__ called.")
 
-    # def __new__(cls, val) -> Any:
-    #     print(f"__new__ called.")
-    #     obj = super(Value, cls).__new__(cls)
-    #     return obj
+    def __new__(cls, val) -> Any:
+        # print(f"__new__ called.")
+        obj = super(Value, cls).__new__(cls)
+        return obj
 
-    # def __del__(self):
-    #     print(f"{self.__repr__()} is GCed")
+    def __del__(self):
+        ...
+        # print(f"{self.__repr__()} is GCed")
 
     # 常用的魔法函数
     # print(v1)
@@ -36,9 +37,6 @@ class Value:
     # v1 < v2
     def __lt__(self, o: object) -> bool:
         return self.value < o.value
-
-    # def __call__(self):
-    #     print(f"__call__ called.")
 
     def __add__(self, o):
         return Value(self.value + o.value)
@@ -62,44 +60,44 @@ class Value:
     def __iadd__(self, i: int):
         return Value(self.value + i)
 
-    # def __hash__(self) -> int:
-    #     # if a == b, hash(a) == hash(b)
-    #     return self.value
+    # def __call__(self):
+    #     print(f"__call__ called.")
 
-    # def __sizeof__(self) -> int:
-    #     return getsizeof(self.value)
-
-
-class FileObject:
-
-    def __init__(self, filepath='~', filename='sample.txt'):
-        # open a file filename in filepath in read and write mode
-        self.file = open(join(filepath, filename), 'r+')
-
-    def __del__(self):
-        self.file.close()
-        del self.file
-
-if __name__ == '__main__':
-
+def basic():
     v1 = Value(-1)
     v2 = Value(2)
-    # print(v1)
+    print(v1)
 
-    # lst = [v1, v2]
-    # print(lst)
-    # print(f"{v1 < v2 = }")
-    # print(f"{v1 == v2 = }")
-    # print(f"{v1 + v2 = }")
-    # print(f"{v1 - v2 = }")
-    # print(f"{v1 * v2 = }")
-    # print(f"{v2 ** 2 = }")
-    # print(f"{v1 | v2 = }")
-    # print(f"{abs(v1) = }")
+    lst = [v1, v2]
+    print(lst)
+    print(f"{v1 < v2 = }")
+    print(f"{v1 == v2 = }")
+    print(f"{v1 + v2 = }")
+    print(f"{v1 - v2 = }")
+    print(f"{v1 * v2 = }")
+    print(f"{v2 ** 2 = }")
+    print(f"{v1 | v2 = }")
+    print(f"{abs(v1) = }")
     v1 += 100
     print(f"{v1 = }")
 
     print(f"{abs(v1) = }")
 
-# 请期待下期：
-# Python知否: 魔法函数(2) 容器和上下文 
+
+# Callable
+# 函数也是一个对象（object）
+# 做一个自己的“函数”对象
+class AddBy:
+    
+    def __init__(self, by: int) -> None:
+        self.by = by
+
+    def __call__(self, i: int) -> int:
+        return self.by + i
+
+
+if __name__ == '__main__':
+
+    add_by_1 = AddBy(1)
+    res = add_by_1(10)
+    print(f"{add_by_1(10) = }")
