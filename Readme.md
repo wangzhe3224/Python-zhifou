@@ -9,4 +9,10 @@
 - [Python知否（3）：魔法函数 1 & 2](https://www.zhihu.com/zvideo/1397034034552266752) [源码](./src/magic_methods.py)
 - [Python知否（4）：魔法函数 3 Context](https://www.zhihu.com/zvideo/1397034034552266752) [源码](./src/magic_method_context.py)
 
-## 文档
+## 欢迎关注 Python知否 视频号 获得更多Python资讯
+
+![Python知否](assets/Zhifou.JPG)
+
+## 欢迎关注 泛程序员 公众号 获得更多编程知识
+
+![泛程序员](assets/FanCoder.jpeg)
