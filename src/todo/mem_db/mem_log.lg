@@ -1,0 +1,12 @@
+Filename: /Users/zhewang/Documents/zhifou/src/todo/mem_db/obj.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+     8     39.2 MiB     39.2 MiB           1       @profile(stream=fp)
+     9                                             def __init__(self) -> None:
+    10     39.2 MiB      0.0 MiB           1           self.a = []
+    11     40.7 MiB      1.6 MiB       10003           self.b = {uuid.uuid4(): i for i in range(100_00)}
+    12     40.7 MiB      0.0 MiB           1           self.c = (1,2,3,5)
+    13     40.7 MiB      0.0 MiB           1           self.d = {"a": self.a}
+
+
