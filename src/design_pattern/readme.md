@@ -2,7 +2,7 @@
 
 > Python的视角
 > 转载请注明出处。
-> 代码见：
+> 代码见：https://github.com/wangzhe3224/Python-zhifou/tree/master/src/todo/design_pattern
 
 - [重拾面向对象设计模式](#重拾面向对象设计模式)
   - [引言](#引言)
@@ -816,3 +816,4 @@ if __name__ == "__main__":
 ## 参考
 
 - https://refactoring.guru/design-patterns
+- https://github.com/faif/python-patterns
