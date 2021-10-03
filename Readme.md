@@ -2,7 +2,7 @@
 
 知否系列的源代码。
 
-## [设计模式](src/design_pattern/readme.md)
+## [设计模式](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
 
 ## 视频链接
 
