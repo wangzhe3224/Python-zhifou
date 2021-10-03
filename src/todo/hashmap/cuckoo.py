@@ -1,12 +1,12 @@
 # Cuckoo Hashmap
 from __future__ import annotations
 from typing import Optional, Tuple, TypeVar, Union, List
-import logging
 
 
 KEY = TypeVar('KEY')
 VAL = TypeVar('VAL')
 MAYBEVAL = Union[None, VAL] 
+MAYBENODE = Union[None, Node] 
 
 
 def debug(msg):
@@ -29,8 +29,8 @@ class HashTable:
     def __init__(self, size: int, retry: int=5) -> None:
         self._size = size
         self._num_records = 0
-        self._ary1: List[MAYBEVAL] = [None for _ in range(size//2)]
-        self._ary2: List[MAYBEVAL] = [None for _ in range(size//2)]
+        self._ary1: List[MAYBENODE] = [None for _ in range(size//2)]
+        self._ary2: List[MAYBENODE] = [None for _ in range(size//2)]
         self.__retry = retry
     
     def hash(self, s: KEY) -> Tuple[int, int]:
@@ -54,7 +54,7 @@ class HashTable:
         pos1, pos2 = self.hash(k)
         
         # probing
-        pos = pos1
+        pos: int = pos1
         table = self._ary1
         
         for _ in range(self.__retry):
@@ -64,7 +64,8 @@ class HashTable:
                 return True  # --> 
             
             # evict item in pos, n becomes vitim node
-            # TODO: type not working here.. could be an issue
+            # TODO: type not working here.. I know table[pos] here cannot be
+            # None due to above branch, but mypy does not understand this..
             n, table[pos] = table[pos], n  # type: ignore
 
             if pos == pos1:
