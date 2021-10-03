@@ -1,12 +1,16 @@
 # Cuckoo Hashmap
 from __future__ import annotations
 from typing import Optional, Tuple, TypeVar, Union, List
-import random
+import logging
 
 
 KEY = TypeVar('KEY')
 VAL = TypeVar('VAL')
 MAYBEVAL = Union[None, VAL] 
+
+
+def debug(msg):
+    print(msg)
 
 
 class Node:
@@ -79,10 +83,12 @@ class HashTable:
     
     def _grow_table(self) -> None:
         new_size = self._size * 2
+        debug(f"grow table from {self._size} to {new_size}")
         self._reshape(new_size)
     
     def _reshape(self, new_size: int) -> None:
         # reset hash
+        debug(f"reshaping table!")
         new_table = HashTable(new_size)
         for i in range(self._size // 2): 
             x, y = self._ary1[i], self._ary2[i]
