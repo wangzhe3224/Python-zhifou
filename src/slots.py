@@ -1,7 +1,8 @@
 import time
 from functools import wraps
 from pympler import asizeof
-from typing import Union
+from typing import NamedTuple, Union, List, Any
+from dataclasses import dataclass
 
 
 class Article:
@@ -16,6 +17,15 @@ class ArticleWithSlots:
     def __init__(self, date, writer):
         self.date = date
         self.writer = writer
+
+@dataclass
+class ArticalDataclass:
+    date: str 
+    writer: str
+
+class ArcticalNameTuple(NamedTuple):
+    date: str
+    writer: str
 
 
 def timefn(fn):
@@ -41,12 +51,33 @@ def attri_access(obj: Union[Article, ArticleWithSlots], size):
         br = obj.date
     return ar, br
     
+def report_size(objs: List[Any]):
+    for o in objs:
+        print(f"size of {o}: {asizeof.asizeof(o)}")
 
 
 if __name__ == '__main__':
     
-    N = 10000000
-    create_object(Article, N)
-    create_object(ArticleWithSlots, N)
-    attri_access(Article('a', 'b'), N)
-    attri_access(ArticleWithSlots('a', 'b'), N)
+    N = 5_000_000
+    # create_object(Article, N)
+    # create_object(ArticleWithSlots, N)
+    # create_object(ArticalDataclass, N)
+    # create_object(ArcticalNameTuple, N)
+
+    # attri_access(Article('a', 'b'), N)
+    # attri_access(ArticleWithSlots('a', 'b'), N)
+    # attri_access(ArticalDataclass('a', 'b'), N)
+    # attri_access(ArcticalNameTuple('a', 'b'), N)
+
+    a = Article('a', 'b')
+    b = ArticleWithSlots('a', 'b')
+    c = ArticalDataclass('a', 'b')
+    d = ArcticalNameTuple('a', 'b')
+    e = {
+        'date': 'a',
+        'writer': 'b'
+    }
+    f = ['a', 'b']
+    g = ('a', 'b')
+    
+    report_size([a, b, c, d, e, f, g])

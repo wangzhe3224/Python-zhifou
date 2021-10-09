@@ -5,8 +5,6 @@ from typing import Optional, Tuple, TypeVar, Union, List
 
 KEY = TypeVar('KEY')
 VAL = TypeVar('VAL')
-MAYBEVAL = Union[None, VAL] 
-MAYBENODE = Union[None, Node] 
 
 
 def debug(msg):
@@ -23,6 +21,9 @@ class Node:
     def __repr__(self) -> str:
         return f"Node({self.key}: {self.value})"
 
+# Optional[X] is equivalent to Union[X, None].
+MAYBEVAL = Union[None, VAL] 
+MAYBENODE = Union[None, Node] 
 
 class HashTable:
     
