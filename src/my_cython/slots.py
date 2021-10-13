@@ -3,6 +3,7 @@ from functools import wraps
 from pympler import asizeof
 from typing import NamedTuple, Union, List, Any
 from dataclasses import dataclass
+from helloworld import Test
 
 
 class Article:
@@ -59,15 +60,17 @@ def report_size(objs: List[Any]):
 if __name__ == '__main__':
     
     N = 5_000_000
-    # create_object(Article, N)
-    # create_object(ArticleWithSlots, N)
-    # create_object(ArticalDataclass, N)
-    # create_object(ArcticalNameTuple, N)
+    create_object(Article, N)
+    create_object(ArticleWithSlots, N)
+    create_object(ArticalDataclass, N)
+    create_object(ArcticalNameTuple, N)
+    create_object(Test, N)
 
-    # attri_access(Article('a', 'b'), N)
-    # attri_access(ArticleWithSlots('a', 'b'), N)
-    # attri_access(ArticalDataclass('a', 'b'), N)
-    # attri_access(ArcticalNameTuple('a', 'b'), N)
+    attri_access(Article('a', 'b'), N)
+    attri_access(ArticleWithSlots('a', 'b'), N)
+    attri_access(ArticalDataclass('a', 'b'), N)
+    attri_access(ArcticalNameTuple('a', 'b'), N)
+    attri_access(Test('a', 'b'), N)
 
     a = Article('a', 'b')
     b = ArticleWithSlots('a', 'b')
@@ -79,5 +82,5 @@ if __name__ == '__main__':
     }
     f = ['a', 'b']
     g = ('a', 'b')
-    
-    report_size([a, b, c, d, e, f, g])
+    h = Test('a', 'b')
+    report_size([a, b, c, d, e, f, g, h])

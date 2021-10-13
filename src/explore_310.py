@@ -53,4 +53,4 @@ def mean(nums: int | float):
 
 isinstance(1, int | float)
 isinstance(1, int) or isinstance(1, float)
-isinstance(Union[int, float])
+isinstance(1 , Union[int, float])
