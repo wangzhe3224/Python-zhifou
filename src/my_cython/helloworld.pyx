@@ -1,5 +1,3 @@
-# print("Hello World")
-
 cdef class Test:
     cdef public str date
     cdef public str writer

@@ -17,6 +17,7 @@
 - [Python知否：构建自动测试项目](https://www.youtube.com/watch?v=NHExshVPjdg&list=PL5ETbHWvsj-EbIT-BsswTG129JfDKD7eS&index=9) - [源码](https://github.com/wangzhe3224/python_project_template)
 - [Python知否：dataclass](https://youtu.be/9Uj-aa7TdDE) - [源码](./src/intro_dataclass.py)
 - [Python知否：Python3.10尝鲜互动](https://www.zhihu.com/zvideo/1430213263611633664) - [源码](./src/explore_310.py)
+- [Python知否：数据对象的性能比较](https://www.zhihu.com/zvideo/1432765048955998208) - [源码](./src/my_cython/slots.py)
 
 ## 欢迎关注 Python知否 视频号 获得更多Python资讯
 

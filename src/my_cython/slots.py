@@ -1,3 +1,11 @@
+"""
+Python知否：数据对象的性能比较
+
+介绍常见数据对象：class, dataclass, __slots__ 和 cython类 的性能和内存使用。
+谁更快？谁更节约内存？？
+欢迎关注微信视频号：Python知否
+欢迎关注公众号：泛程序员 - 一个为非计算机专业程序员充电的地方
+"""
 import time
 from functools import wraps
 from pympler import asizeof
@@ -84,3 +92,4 @@ if __name__ == '__main__':
     g = ('a', 'b')
     h = Test('a', 'b')
     report_size([a, b, c, d, e, f, g, h])
+    # report_size([a, b, c, d, e, f, g])
