@@ -18,6 +18,7 @@
 - [Python知否：dataclass](https://youtu.be/9Uj-aa7TdDE) - [源码](./src/intro_dataclass.py)
 - [Python知否：Python3.10尝鲜互动](https://www.zhihu.com/zvideo/1430213263611633664) - [源码](./src/explore_310.py)
 - [Python知否：数据对象的性能比较](https://www.zhihu.com/zvideo/1432765048955998208) - [源码](./src/my_cython/slots.py)
+- [Python知否：如何编写高效网络IO程序](https://www.zhihu.com/zvideo/1433118030520258560) - [源码](./src/web_io_async/fancy.py)
 
 ## 欢迎关注 Python知否 视频号 获得更多Python资讯
 

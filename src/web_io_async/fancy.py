@@ -4,7 +4,7 @@ Python知否：如何编写高效网络IO程序
 如何侧写程序瓶颈？如何加速网络IO程序？9012年，别再多线程了，Asyncio一行拯救IO
 源代码：https://github.com/wangzhe3224/Python-zhifou
 欢迎关注微信视频号：Python知否
-欢迎关注公众号：泛程序员 - 一个为非计算机专业程序员充电的地
+欢迎关注公众号：泛程序员 - 一个为非计算机专业程序员充电的地方
 """
 import re
 import logging
