@@ -6,7 +6,7 @@
 
 重新看设计模式。
 
-## 视频链接
+## Python知否 视频链接
 
 - [Python知否（1）：你不知道的f-string](https://www.zhihu.com/zvideo/1392553765061451776) - [源码](./src/fstring.py)
 - [Python知否（2）：如何让循环提速10000倍](https://www.zhihu.com/zvideo/1395087047015743488) [源码](./src/loop_compare.py)
@@ -19,6 +19,11 @@
 - [Python知否：Python3.10尝鲜互动](https://www.zhihu.com/zvideo/1430213263611633664) - [源码](./src/explore_310.py)
 - [Python知否：数据对象的性能比较](https://www.zhihu.com/zvideo/1432765048955998208) - [源码](./src/my_cython/slots.py)
 - [Python知否：如何编写高效网络IO程序](https://www.zhihu.com/zvideo/1433118030520258560) - [源码](./src/web_io_async/fancy.py)
+- [Python知否：3.10深度尝鲜 - 模式匹配](https://www.zhihu.com/zvideo/1435281482483388416) - [源码](./src/pattern_match.py)
+
+## Vim视频
+
+- [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.zhihu.com/zvideo/1435277601602924544)
 
 ## 欢迎关注 Python知否 视频号 获得更多Python资讯
 

@@ -78,7 +78,7 @@ def gen_params(source: str, target_forder: str = '.', target_name: str = None,
 @click.argument('source')
 @click.option('-t', '--target-folder', default='.', help="target folder of the outputs")
 @click.option('-n', '--target-name', default=None, help="target file name of the outputs")
-@click.option('-l','--target-length',  default=300, help="target file length")
+@click.option('-l', '--target-length',  default=300, help="target file length")
 @click.option('-w', '--worker', default=8)
 def main(source: str, target_folder: str = '.', target_name: str = None,
          target_length: int = 300, worker: int=8):
