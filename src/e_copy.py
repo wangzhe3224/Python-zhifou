@@ -1,7 +1,7 @@
 # 容器对象
 import copy
 
-
+# int a = 1;
 a = [1,2,3]
 aa = a
 print(f"{id(a) = }")

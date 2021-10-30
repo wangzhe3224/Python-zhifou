@@ -20,6 +20,7 @@
 - [Python知否：数据对象的性能比较](https://www.zhihu.com/zvideo/1432765048955998208) - [源码](./src/my_cython/slots.py)
 - [Python知否：如何编写高效网络IO程序](https://www.zhihu.com/zvideo/1433118030520258560) - [源码](./src/web_io_async/fancy.py)
 - [Python知否：3.10深度尝鲜 - 模式匹配](https://www.zhihu.com/zvideo/1435281482483388416) - [源码](./src/pattern_match.py)
+- [Python知否 - 深拷贝vs浅拷贝](https://www.zhihu.com/zvideo/1437815405373468672) - [源码](./src/e_copy.py)
 
 ## Vim视频
 
