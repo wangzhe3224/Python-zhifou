@@ -24,7 +24,9 @@
 
 ## Vim视频
 
-- [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.zhihu.com/zvideo/1435277601602924544)
+- [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.youtube.com/watch?v=7nIaRk_3RBU&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=2)
+- [VS Code 学 Vim （2）- Insert模式的移动技巧](https://www.youtube.com/watch?v=oczgTncSl-k&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=3)
+- [VS Code 学 Vim （3）- normal模式的编辑技巧](https://www.youtube.com/watch?v=hulJXONuYBY&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=4)
 
 ## 欢迎关注 Python知否 视频号 获得更多Python资讯
 
