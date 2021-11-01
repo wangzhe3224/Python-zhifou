@@ -2,7 +2,7 @@
 
 知否系列的源代码。
 
-## [设计模式](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
+## [【点我】 >> 设计模式 << ](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
 
 重新看设计模式。
 
@@ -27,11 +27,3 @@
 - [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.youtube.com/watch?v=7nIaRk_3RBU&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=2)
 - [VS Code 学 Vim （2）- Insert模式的移动技巧](https://www.youtube.com/watch?v=oczgTncSl-k&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=3)
 - [VS Code 学 Vim （3）- normal模式的编辑技巧](https://www.youtube.com/watch?v=hulJXONuYBY&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=4)
-
-## 欢迎关注 Python知否 视频号 获得更多Python资讯
-
-![Python知否](assets/Zhifou.JPG)
-
-## 欢迎关注 泛程序员 公众号 获得更多编程知识
-
-![泛程序员](assets/FanCoder.jpeg)
