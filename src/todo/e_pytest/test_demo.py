@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def function_prints():
-    print("Catch me!")
+    print("Catch!")
 
 def function_log():
     logging.getLogger().info("Catch me!")
@@ -15,10 +15,13 @@ def function_log():
 def test_basic():
     # call some function, get some results, and assert
     assert 1 == 1
+    # assert 1 == 2
 
 # Side effects
 def test_exp():
+    # raise KeyError("I am catched by pytest")
     with pytest.raises(KeyError):
+        # 希望异常的函数调用放在这里
         raise KeyError("I am catched by pytest")
     # with pytest.raises(IndexError):
     #     raise KeyError("Not catched")
@@ -26,7 +29,7 @@ def test_exp():
 def test_print_message(capsys):
     function_prints()
     captured = capsys.readouterr()
-    assert captured.out == "Catch me!\n"
+    assert captured.out == "Catch!\n"
 
 def test_log_content(caplog):
     with caplog.at_level(logging.DEBUG):
@@ -69,7 +72,7 @@ def test_modify(fruit_basket):
     ],
     ids=[
         'a + b = ab',
-        '_ + b = b'
+        '_ + b = b',
     ]
 )
 def test_params_marks(input1, input2, expected_out):
