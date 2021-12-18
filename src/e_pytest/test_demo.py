@@ -1,3 +1,12 @@
+"""
+Python知否：元单元测试技巧
+
+学习如何使用pytest进行以下原单原测试：
+- 基本测试
+- 带side effect的函数测试：异常、打印、日志测试
+- 并行参数化测试
+- 跳过测试
+"""
 from dataclasses import dataclass
 import pytest
 import logging
