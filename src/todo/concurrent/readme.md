@@ -30,6 +30,8 @@
 
 ### 线程（Thread）
 
+[>> Code <<](con_thread.py)
+
 - 通讯
 - 同步
 - 共享内存
