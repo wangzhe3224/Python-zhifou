@@ -38,6 +38,12 @@
 
 ### 协程（Async）
 
+[>> Code <<](con_async.py)
+
+- 通讯
+- 同步
+- 共享内存
+
 ## Ref
 
 - <https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p03_communicating_between_threads.html>

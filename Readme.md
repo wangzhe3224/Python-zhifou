@@ -8,6 +8,10 @@
 
 ## Python知否 视频链接
 
+全网同名：泛程序员 - FunCoder
+
+视频同步在 [Youtube](https://www.youtube.com/channel/UCewwgakV1SB1IKu8305Hgsg) | [知乎](https://www.zhihu.com/people/wangzhetju/zvideos) | [B站](https://space.bilibili.com/414096658/channel/seriesdetail?sid=520936&ctype=0) | [小红书]
+
 - [Python知否（1）：你不知道的f-string](https://www.zhihu.com/zvideo/1392553765061451776) - [源码](./src/fstring.py)
 - [Python知否（2）：如何让循环提速10000倍](https://www.zhihu.com/zvideo/1395087047015743488) [源码](./src/loop_compare.py)
 - [Python知否：魔法函数 1 & 2](https://www.zhihu.com/zvideo/1397034034552266752) - [源码](./src/magic_methods.py)
@@ -21,6 +25,10 @@
 - [Python知否：如何编写高效网络IO程序](https://www.zhihu.com/zvideo/1433118030520258560) - [源码](./src/web_io_async/fancy.py)
 - [Python知否：3.10深度尝鲜 - 模式匹配](https://www.zhihu.com/zvideo/1435281482483388416) - [源码](./src/pattern_match.py)
 - [Python知否 - 深拷贝vs浅拷贝](https://www.zhihu.com/zvideo/1437815405373468672) - [源码](./src/e_copy.py)
+- [脱离程序员初级阶段系列：并发编程 - 进程实现 （Python知否）](https://www.bilibili.com/video/BV1qM4y1c7Rw?spm_id_from=333.999.0.0) - [源码](./src/concurrent/con_process.py)
+- [脱离程序员初级阶段系列：并发编程2 - 线程实现 （Python知否）](https://www.bilibili.com/video/BV1kr4y1U7Er?spm_id_from=333.999.0.0) - [源码](./src/concurrent/con_thread.py)
+- [脱离程序员初级阶段系列：并发编程3.1 - 协程实现 （Python知否）](https://www.bilibili.com/video/BV1YL41157cE?spm_id_from=333.999.0.0) - [源码](./src/concurrent/con_async.py)
+- [脱离程序员初级阶段系列：并发编程3.2 - 协程实现 （Python知否）](https://www.zhihu.com/zvideo/1458143778284826624) - [源码](./src/concurrent/con_async.py)
 
 ## Vim视频
 
