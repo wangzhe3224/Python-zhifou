@@ -2,6 +2,12 @@
 
 知否系列的源代码。
 
+- [Python知否](#python知否)
+  - [【点我】 >> 设计模式 << ](#点我--设计模式--)
+  - [Python知否 视频链接](#python知否-视频链接)
+  - [Vim视频](#vim视频)
+  - [Buy me a coffee?](#buy-me-a-coffee)
+
 ## [【点我】 >> 设计模式 << ](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
 
 重新看设计模式。
@@ -35,3 +41,16 @@
 - [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.youtube.com/watch?v=7nIaRk_3RBU&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=2)
 - [VS Code 学 Vim （2）- Insert模式的移动技巧](https://www.youtube.com/watch?v=oczgTncSl-k&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=3)
 - [VS Code 学 Vim （3）- normal模式的编辑技巧](https://www.youtube.com/watch?v=hulJXONuYBY&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=4)
+
+
+## Buy me a coffee?
+
+It takes time to produce videos, articals, and maintains the repositories.
+Feel free to support me :) thanks.
+
+- [Patreon](https://www.patreon.com/funcoder777)
+- ETH: 0xb5fEE7B6776877bB78C2b7594802C6a09f52D9B7
+- BTC: bc1qrjrffv7aaf5f4f6dydkt4yaukt4297vedd6w6p
+- 支付宝
+
+<img src="https://github.com/wangzhe3224/awesome-systematic-trading/blob/master/assets/IMG_0825.jpg" width="200" height="200" />
