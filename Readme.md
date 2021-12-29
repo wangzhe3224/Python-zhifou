@@ -3,12 +3,18 @@
 知否系列的源代码。
 
 - [Python知否](#python知否)
-  - [【点我】 >> 设计模式 << ](#点我--设计模式--)
+  - [计算机基础知识](#计算机基础知识)
+  - [设计模式 - Python解读](#设计模式---python解读)
   - [Python知否 视频链接](#python知否-视频链接)
   - [Vim视频](#vim视频)
   - [Buy me a coffee?](#buy-me-a-coffee)
 
-## [【点我】 >> 设计模式 << ](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
+## 计算机基础知识
+
+- [自学计算机书籍和课程推荐](doc/cs_ref.md)
+- [Python从入门到专家书籍推荐](doc/python_ref.md)
+
+## [设计模式 - Python解读](https://github.com/wangzhe3224/Python-zhifou/tree/master/src/design_pattern)
 
 重新看设计模式。
 
@@ -41,7 +47,6 @@
 - [VS Code 学 Vim （1）- 介绍和normal模式移动技巧](https://www.youtube.com/watch?v=7nIaRk_3RBU&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=2)
 - [VS Code 学 Vim （2）- Insert模式的移动技巧](https://www.youtube.com/watch?v=oczgTncSl-k&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=3)
 - [VS Code 学 Vim （3）- normal模式的编辑技巧](https://www.youtube.com/watch?v=hulJXONuYBY&list=PL5ETbHWvsj-ElvAie2EhSnmAZts31adwQ&index=4)
-
 
 ## Buy me a coffee?
 
