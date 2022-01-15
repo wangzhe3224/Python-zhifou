@@ -41,6 +41,7 @@
 - [脱离程序员初级阶段系列：并发编程2 - 线程实现 （Python知否）](https://www.bilibili.com/video/BV1kr4y1U7Er?spm_id_from=333.999.0.0) - [源码](./src/concurrent/con_thread.py)
 - [脱离程序员初级阶段系列：并发编程3.1 - 协程实现 （Python知否）](https://www.bilibili.com/video/BV1YL41157cE?spm_id_from=333.999.0.0) - [源码](./src/concurrent/con_async.py)
 - [脱离程序员初级阶段系列：并发编程3.2 - 协程实现 （Python知否）](https://www.zhihu.com/zvideo/1458143778284826624) - [源码](./src/concurrent/con_async.py)
+- [Python 对象、类型、自省的一些碎碎念](https://www.zhihu.com/zvideo/1465762554924810240) - [](./src/b_class.py)
 
 ## Vim视频
 
