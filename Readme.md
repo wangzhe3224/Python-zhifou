@@ -43,6 +43,7 @@
 - [脱离程序员初级阶段系列：并发编程3.2 - 协程实现 （Python知否）](https://www.zhihu.com/zvideo/1458143778284826624) - [源码](./src/concurrent/con_async.py)
 - [Python 对象、类型、自省的一些碎碎念](https://www.zhihu.com/zvideo/1465762554924810240) - [源码](./src/b_class.py)
 - [Python 弱引用]() - [源码](./src/e_weakref.py)
+- [Python - 数据建模 1 - 和类型 | 积类型 | 抽象](https://www.zhihu.com/zvideo/1600634163325050880)
 
 ## Vim视频
 
