@@ -1,5 +1,7 @@
 # Python知否
 
+**注意**：更多视频讲解请看[Python 速食 300 秒](https://github.com/wangzhe3224/python-recipes-300-second)
+
 知否系列的源代码。
 
 - [Python知否](#python知否)
